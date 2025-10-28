@@ -1,0 +1,79 @@
+@media (min-width:768px) {
+    html body.croki54 .cro-container {
+    padding-right: 3rem!important;
+    padding-left: 3rem!important;
+    }
+    
+}
+
+html body.croki54 .croki54-new-part{
+    background-color: #FBFBFB;
+}
+
+html body.croki54 .croki54-new-part-wrapper{
+    padding: 32px 0;
+}
+
+html body.croki54 .croki54-new-part-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 0;
+}
+
+html body.croki54 svg.cro-icon {
+    width: 100%;
+}
+
+html body.croki54 .croki54-new-top-image {
+    width: 100%;
+    max-width: 200px;
+}
+
+html body.croki54 .croki54-new-bottom-text{
+color: #000;
+font-family: Open Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
+
+html body.croki54 .croki54-new-bottom-text span{
+font-weight: 700;
+}
+
+html body.croki54 .register-hld.otpscreen + .croki54-new-part{
+    display: none;
+}
+
+@media (max-width:767px) {
+    html body.croki54 .cro-container {
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+    }
+    
+    html body.croki54 .croki54-new-bottom-text{
+    font-size: 20px;
+    line-height: normal;
+    }
+
+    html body.croki54 .croki54-new-part-inner {
+    padding: 0;
+    }
+    
+    html body.croki54 .croki54-new-top-image {
+        width: 100%;
+        max-width: 166px;
+    }
+}
+
+@media (max-width:500px) {
+   html body.croki54 .croki54-new-bottom {
+    width: 100%;
+    max-width: 300px;
+} 
+}
